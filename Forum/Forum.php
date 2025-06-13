@@ -2,12 +2,12 @@
 
 	session_start();
 	
-	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
+	if (!isset($_SESSION['zalogowany']))
 	{
-		header('Location: Forum.php');
+		header('Location: index.php');
 		exit();
 	}
-
+	
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,7 +29,9 @@
         </div>
     <div class ="head-buttons">
         <button class="konto">koszyk</button>
-        <button class="koszyk">logowanie</button>
+        <a href="logout.php">
+        <button class="koszyk">wyloguj</button>
+        </a>
     </div>
     </header>
     <div>

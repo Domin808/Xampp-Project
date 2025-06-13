@@ -38,7 +38,7 @@
     <br/>
         <div class = "vbar">
         <ul>
-            <li><a href="register.php">Zarejestruj sie</a><li>
+            <li><a href="rejestracja.php">Zarejestruj sie</a><li>
             <li><a href="">Pomoc</a></li>
         </ul>
         </div>
