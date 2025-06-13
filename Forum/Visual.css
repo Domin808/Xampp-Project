@@ -1,5 +1,7 @@
 body {
-  background: #4a5b6d;
+  background-image: url("/Xampp-Project/img/mountains-4199004_1920.png");
+  background-position: center;
+  background-size: cover;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -27,13 +29,16 @@ header {
 }
 
 footer {
+    position: fixed;
     padding: 1.5rem 1rem;
     display: flex;
     color:#777;
     background:#161820f8;
     border-top: 1px solid #e5e7eb;
     justify-content: space-between;
-    flex-wrap: warp;
+    bottom: 0;
+    left: 0;
+    width:100% ;
 }
 
 .serchbar {
@@ -52,3 +57,93 @@ button:hover {
     text-align: left;
 }
 
+
+.forum-list {
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.forum-thread {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+}
+
+.forum-thread:last-child {
+    border-bottom: none;
+}
+
+.forum-thread:hover {
+    background-color: #f8f9fa;
+}
+
+.thread-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0e3257;
+    margin-bottom: 5px;
+}
+
+.thread-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #7f8c8d;
+    margin-bottom: 8px;
+}
+
+.thread-author {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.thread-date {
+    color: #95a5a6;
+}
+
+.thread-excerpt {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #172533;
+}
+
+.thread-stats {
+    display: flex;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #95a5a6;
+}
+
+.thread-stats span {
+    margin-right: 15px;
+}
+
+.thread-stats i {
+    margin-right: 3px;
+}
+
+.naglowek {
+    text-align: center;
+    background-color: #34495e;
+    opacity: 0.95;
+    color: white;
+}
+
+.hidden {
+display: none;
+}
+
+
+#searchBox {
+padding: 10px;
+width: 20em;
+
+font-size: 12px;
+text-align: center;
+}
