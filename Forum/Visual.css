@@ -1,0 +1,90 @@
+body {
+  background: #4a5b6d;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+   width: 100%;
+}
+
+header {
+  background-color: #161820f8;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.img {
+    width: 3cm;
+    height: 1.2cm;
+    margin: 0;
+}
+
+footer {
+    padding: 1.5rem 1rem;
+    display: flex;
+    color:#777;
+    background:#161820f8;
+    border-top: 1px solid #e5e7eb;
+    justify-content: space-between;
+    flex-wrap: warp;
+}
+
+.serchbar {
+    width: 6cm;
+    height: 100%;
+    background-color: #4a5b6d;
+}
+
+
+button:hover {
+    background-color:pink;
+
+}
+
+#align_left {
+    text-align: left;
+}
+
+.login{ 
+    border: 2px solid black;
+    margin-top: 5cm;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8cm ;
+    height: 10cm;
+    text-align: center;
+    background-color: wheat;
+    box-shadow: 2px 2px 5px(0,0,0,0.5);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.vbar{
+    margin-left: 1.4cm;
+}
