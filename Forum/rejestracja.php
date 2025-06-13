@@ -138,19 +138,20 @@
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>
+    <link href="register.css" rel="stylesheet"/>   
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>Hangard - Rejestracja</title>
     <script src="https://www.google.com/recaptcha/api.js?render=6LcZol8rAAAAAIQLuwdUntgzcZ6msD3fqmrgEQ6b"></script>
 </head>
 
 <body>
-	
+	<div class="register">
+		<h1 class="text">Zarejestruj się <br /> by korzystać z forum</h1>
 	<form method="post">
 
         <input type="hidden" name="recaptcha_token" id="recaptcha_token">
 
-		Nickname: <br /> <input type="text" value="<?php
+		Nazwa uzytkonika: <br /> <input type="text" value="<?php
 			if (isset($_SESSION['fr_nick']))
 			{
 				echo $_SESSION['fr_nick'];
@@ -233,11 +234,12 @@
 			}
 		?>	
 		
-		<br />
-		
-		<input type="submit" value="Zarejestruj się" />
-		
+		<button class="btn">Zarejestruj się
+			<input type="submit" hidden/>
+		</button>
 	</form>
+	<div>
+
     <script>
     grecaptcha.ready(function() {
     grecaptcha.execute('6LcZol8rAAAAAIQLuwdUntgzcZ6msD3fqmrgEQ6b', {action: 'register'}).then(function(token) {

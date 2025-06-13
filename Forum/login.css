@@ -1,0 +1,62 @@
+body {
+    background-image: url('/Xampp-Project/img/river-8286407_1920.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'arial', sans-serif;
+
+}
+.login{ 
+    border: 2px solid black;
+    margin-top: 5cm;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8cm ;
+    height: 10cm;
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    opacity: 0.95;
+    box-shadow: 2px 2px 5px(0,0,0,0.5);
+}
+
+.text {
+    color: rgb(138, 212, 255);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #1f2a5a;
+  box-shadow: 2px 2px 5px(0,0,0,0.5);
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 4px 10px;
+  text-decoration: none;
+  border: 1px solid black;
+  color:white;
+  opacity: 1;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.vbar{
+    margin-left: 1.4cm;
+}
+.serchbar {
+    background-color: rgb(180, 180, 180);
+    padding: 6px 16px;
+}
+.btn {
+    width:3.5cm ;
+    background-color: green;
+    font-weight: bold;
+}
+
