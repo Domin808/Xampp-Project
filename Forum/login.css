@@ -12,7 +12,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 8cm ;
-    height: 10cm;
+    height: 10.5cm;
     text-align: center;
     background-color: rgb(56, 56, 56);
     opacity: 0.95;
@@ -58,5 +58,10 @@ li a:hover {
     width:3.5cm ;
     background-color: green;
     font-weight: bold;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    color: white;
 }
 

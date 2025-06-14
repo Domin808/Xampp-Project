@@ -48,11 +48,6 @@ footer {
 }
 
 
-button:hover {
-    background-color:pink;
-
-}
-
 #align_left {
     text-align: left;
 }
@@ -146,4 +141,18 @@ width: 20em;
 
 font-size: 12px;
 text-align: center;
+}
+
+.logout {
+    background-color: #e74c3c;
+    width: 3cm ;   
+    height: 1cm;
+}
+.logout:hover {
+    background-color: #c0392b;
+    color: white;
+}
+
+.p {
+    margin-right: 40px;
 }

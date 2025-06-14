@@ -8,7 +8,8 @@ body {
 
 .thx {
     border: 2px solid black;
-    margin-top: 9cm;
+    margin-top: 5cm;
+    margin-bottom: 5cm;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -37,4 +38,5 @@ body {
 
 .btn:hover {
     background-color: darkgreen;
+    color: white;
 }

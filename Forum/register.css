@@ -3,61 +3,106 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'arial', sans-serif;
-
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.register{ 
+.register {
     border: 2px solid black;
-    margin-top: 5cm;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    width: 10cm ;
-    height: 14cm;
-    text-align: center;
+    margin: 5cm auto 0 auto;
+    width: 90%;
+    max-width: 400px;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
     background-color: rgb(56, 56, 56);
     opacity: 0.95;
-    box-shadow: 2px 2px 5px(0,0,0,0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    color: rgb(138, 212, 255);
+}
+input {
+    background-color: rgb(180, 180, 180);
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #66afe9;
+    background-color: #f0f8ff;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(138, 212, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    justify-content: center;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.btn {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+    background-color: darkgreen;
 }
 
 .error {
     color: #d9534f;
     background-color: #f9d6d5;
     border-left: 4px solid #d43f3a;
+    padding: 8px 12px;
     margin-bottom: 10px;
     border-radius: 4px;
-    margin-top: 2px;
+    font-size: 13px;
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
 }
 
 .text {
     color: rgb(138, 212, 255);
-}
+    text-align: center;
 
-
-form {
-    color: rgb(138, 212, 255);
-
-}
-
-input {
-    background-color: rgb(180, 180, 180);
-    padding: 6px 16px;
-}
-
-.btn {
-    width:5.5cm ;
-    height:0.8cm;
-    margin-top: auto;
-    background-color: green;
-    font-weight: bold;
-    align-items: center;
-    box-shadow: 2px 2px 5px(0,0,0,0.5);
-}
-
-.btn:hover {
-    background-color: darkgreen;
 }

@@ -238,7 +238,7 @@
 			<input type="submit" hidden/>
 		</button>
 	</form>
-	<div>
+	</div>
 
     <script>
     grecaptcha.ready(function() {

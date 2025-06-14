@@ -24,10 +24,9 @@
         <div>
             <input type="text" class="serchbar" id="searchBox" placeholder="Wyszukaj">
         </div>
-    <div class ="head-buttons">
-        <button class="konto">koszyk</button>
+    <div class ="head-buttons"> 
         <a href="logout.php">
-        <button class="koszyk">wyloguj</button>
+        <button class="logout">wyloguj</button>
         </a>
     </div>
     </header>
@@ -51,13 +50,13 @@
     
     <ul class="forum-list" id="myList">
         <li class="forum-thread">
-            <div class="thread-title">Jak zainstalować najnowszą wersję frameworka?</div>
+            <div class="thread-title">Instalacja FrameworkY z poziomu CLI – krok po kroku</div>
             <div class="thread-meta">
                 <span class="thread-author">JanKowalski</span>
                 <span class="thread-date">15 maja 2023, 14:30</span>
             </div>
             <div class="thread-excerpt">
-                Szukam pomocy w instalacji najnowszej wersji FrameworkX. Próbowałem już kilku metod z dokumentacji, ale ciągle otrzymuję błąd kompilacji. Czy ktoś mógłby mi pomóc?
+                Czy ktoś ma doświadczenie z instalacją FrameworkY przez konsolę? Mam problem z zależnościami i nie wiem, gdzie leży błąd. Każda wskazówka mile widziana!
             </div>
             <div class="thread-stats">
                 <span><i>💬</i> 12 odpowiedzi</span>
@@ -65,15 +64,15 @@
                 <span><i>👍</i> 8 polubień</span>
             </div>
         </li>
-        
+
         <li class="forum-thread">
-            <div class="thread-title">Najlepsze praktyki w testowaniu jednostkowym</div>
+            <div class="thread-title">Jak skutecznie pisać testy integracyjne?</div>
             <div class="thread-meta">
                 <span class="thread-author">AnnaNowak</span>
                 <span class="thread-date">14 maja 2023, 09:15</span>
             </div>
             <div class="thread-excerpt">
-                Chciałabym podzielić się moimi doświadczeniami z testowania jednostkowego i jednocześnie zapytać o Wasze najlepsze praktyki. Jak organizujecie swoje testy?
+                Ostatnio dużo pracuję nad testami integracyjnymi i chciałabym poznać Wasze podejście. Jakie narzędzia i techniki stosujecie, by testy były czytelne i wydajne?
             </div>
             <div class="thread-stats">
                 <span><i>💬</i> 24 odpowiedzi</span>
@@ -81,15 +80,15 @@
                 <span><i>👍</i> 15 polubień</span>
             </div>
         </li>
-        
+
         <li class="forum-thread">
-            <div class="thread-title">Problemy z responsywnością strony</div>
+            <div class="thread-title">CSS Grid vs Flexbox — co lepiej działa na mobile?</div>
             <div class="thread-meta">
                 <span class="thread-author">DevMaster</span>
                 <span class="thread-date">13 maja 2023, 18:45</span>
             </div>
             <div class="thread-excerpt">
-                Moja strona nie wyświetla się poprawnie na urządzeniach mobilnych. Elementy nachodzą na siebie, a menu nie działa. Jakie mogą być przyczyny?
+                Próbuję poprawić układ mobilny mojej strony i zastanawiam się, kiedy lepiej używać Grid, a kiedy Flexbox. Czy ktoś może podzielić się przykładami i poradami?
             </div>
             <div class="thread-stats">
                 <span><i>💬</i> 7 odpowiedzi</span>
@@ -97,15 +96,15 @@
                 <span><i>👍</i> 3 polubień</span>
             </div>
         </li>
-        
+
         <li class="forum-thread">
-            <div class="thread-title">Przegląd nowych funkcji w JavaScript ES2023</div>
+            <div class="thread-title">Co nowego przynosi ECMAScript 2023?</div>
             <div class="thread-meta">
                 <span class="thread-author">TechGuru</span>
                 <span class="thread-date">12 maja 2023, 11:20</span>
             </div>
             <div class="thread-excerpt">
-                Przygotowałem kompleksowy przegląd nowych funkcji, które pojawią się w nadchodzącej wersji ECMAScript. Omawiam m.in. nowe metody tablic i obietnic.
+                W artykule omawiam zmiany wprowadzone w ES2023, w tym rozszerzenia w iteratorach i nową składnię prywatnych metod. Ciekaw jestem, co sądzicie o tych nowościach.
             </div>
             <div class="thread-stats">
                 <span><i>💬</i> 32 odpowiedzi</span>
@@ -113,15 +112,15 @@
                 <span><i>👍</i> 28 polubień</span>
             </div>
         </li>
-        
+
         <li class="forum-thread">
-            <div class="thread-title">Jak zoptymalizować wydajność bazy danych?</div>
+            <div class="thread-title">Sposoby na przyspieszenie zapytań SQL w dużych projektach</div>
             <div class="thread-meta">
                 <span class="thread-author">DatabaseExpert</span>
                 <span class="thread-date">10 maja 2023, 16:10</span>
             </div>
             <div class="thread-excerpt">
-                Nasza aplikacja zaczyna mieć problemy z wydajnością przy większej liczbie użytkowników. Jakie techniki optymalizacji bazy danych polecacie?
+                Pracuję nad optymalizacją wydajności aplikacji, która intensywnie korzysta z bazy danych. Jakie macie sposoby na redukcję czasu wykonania zapytań SQL?
             </div>
             <div class="thread-stats">
                 <span><i>💬</i> 18 odpowiedzi</span>
@@ -129,102 +128,88 @@
                 <span><i>👍</i> 10 polubień</span>
             </div>
         </li>
-        
+
         <li class="forum-thread">
-            <div class="thread-title">Jak zainstalować najnowszą wersję frameworka?</div>
+            <div class="thread-title">Problemy z instalacją bibliotek w Pythonie pod Windows</div>
             <div class="thread-meta">
                 <span class="thread-author">JanKowalski</span>
                 <span class="thread-date">15 maja 2023, 14:30</span>
             </div>
             <div class="thread-excerpt">
-                Szukam pomocy w instalacji najnowszej wersji FrameworkX. Próbowałem już kilku metod z dokumentacji, ale ciągle otrzymuję błąd kompilacji. Czy ktoś mógłby mi pomóc?
+                Mam problem z instalacją pakietów Pythona na Windows 10 – pip wyrzuca błędy zależności. Czy ktoś miał podobną sytuację i wie, jak to obejść?
             </div>
             <div class="thread-stats">
-                <span><i>💬</i> 12 odpowiedzi</span>
-                <span><i>👁️</i> 245 wyświetleń</span>
-                <span><i>👍</i> 8 polubień</span>
+                <span><i>💬</i> 9 odpowiedzi</span>
+                <span><i>👁️</i> 198 wyświetleń</span>
+                <span><i>👍</i> 6 polubień</span>
             </div>
         </li>
-        
+
         <li class="forum-thread">
-            <div class="thread-title">Najlepsze praktyki w testowaniu jednostkowym</div>
+            <div class="thread-title">Testowanie komponentów React – narzędzia i strategie</div>
             <div class="thread-meta">
                 <span class="thread-author">AnnaNowak</span>
                 <span class="thread-date">14 maja 2023, 09:15</span>
             </div>
             <div class="thread-excerpt">
-                Chciałabym podzielić się moimi doświadczeniami z testowania jednostkowego i jednocześnie zapytać o Wasze najlepsze praktyki. Jak organizujecie swoje testy?
+                Pracuję z Reactem i zastanawiam się, które narzędzia do testowania komponentów są najlepsze. Czy lepiej używać RTL, Enzyme, a może coś innego?
             </div>
             <div class="thread-stats">
-                <span><i>💬</i> 24 odpowiedzi</span>
-                <span><i>👁️</i> 378 wyświetleń</span>
-                <span><i>👍</i> 15 polubień</span>
+                <span><i>💬</i> 20 odpowiedzi</span>
+                <span><i>👁️</i> 342 wyświetlenia</span>
+                <span><i>👍</i> 14 polubień</span>
             </div>
         </li>
+
         <li class="forum-thread">
-            <div class="thread-title">Jak zainstalować najnowszą wersję frameworka?</div>
+            <div class="thread-title">Nie działa debugowanie w VS Code – co sprawdzić?</div>
             <div class="thread-meta">
                 <span class="thread-author">JanKowalski</span>
                 <span class="thread-date">15 maja 2023, 14:30</span>
             </div>
             <div class="thread-excerpt">
-                Szukam pomocy w instalacji najnowszej wersji FrameworkX. Próbowałem już kilku metod z dokumentacji, ale ciągle otrzymuję błąd kompilacji. Czy ktoś mógłby mi pomóc?
+                Mam problem z debuggerem w Visual Studio Code. Breakpointy są ignorowane. Czy ktoś wie, od czego zacząć diagnozę?
             </div>
             <div class="thread-stats">
-                <span><i>💬</i> 12 odpowiedzi</span>
-                <span><i>👁️</i> 245 wyświetleń</span>
-                <span><i>👍</i> 8 polubień</span>
+                <span><i>💬</i> 11 odpowiedzi</span>
+                <span><i>👁️</i> 230 wyświetleń</span>
+                <span><i>👍</i> 9 polubień</span>
             </div>
         </li>
-        
+
         <li class="forum-thread">
-            <div class="thread-title">Najlepsze praktyki w testowaniu jednostkowym</div>
+            <div class="thread-title">Mockowanie zależności w testach – Wasze podejścia</div>
             <div class="thread-meta">
                 <span class="thread-author">AnnaNowak</span>
                 <span class="thread-date">14 maja 2023, 09:15</span>
             </div>
             <div class="thread-excerpt">
-                Chciałabym podzielić się moimi doświadczeniami z testowania jednostkowego i jednocześnie zapytać o Wasze najlepsze praktyki. Jak organizujecie swoje testy?
+                Jakie techniki stosujecie przy mockowaniu zależności w testach? Korzystacie z gotowych bibliotek, czy piszecie własne implementacje?
             </div>
             <div class="thread-stats">
-                <span><i>💬</i> 24 odpowiedzi</span>
-                <span><i>👁️</i> 378 wyświetleń</span>
-                <span><i>👍</i> 15 polubień</span>
+                <span><i>💬</i> 19 odpowiedzi</span>
+                <span><i>👁️</i> 310 wyświetleń</span>
+                <span><i>👍</i> 13 polubień</span>
             </div>
         </li>
+
         <li class="forum-thread">
-            <div class="thread-title">Jak zainstalować najnowszą wersję frameworka?</div>
-            <div class="thread-meta">
-                <span class="thread-author">JanKowalski</span>
-                <span class="thread-date">15 maja 2023, 14:30</span>
-            </div>
-            <div class="thread-excerpt">
-                Szukam pomocy w instalacji najnowszej wersji FrameworkX. Próbowałem już kilku metod z dokumentacji, ale ciągle otrzymuję błąd kompilacji. Czy ktoś mógłby mi pomóc?
-            </div>
-            <div class="thread-stats">
-                <span><i>💬</i> 12 odpowiedzi</span>
-                <span><i>👁️</i> 245 wyświetleń</span>
-                <span><i>👍</i> 8 polubień</span>
-            </div>
-        </li>
-        
-        <li class="forum-thread">
-            <div class="thread-title">Najlepsze praktyki w testowaniu jednostkowym</div>
+            <div class="thread-title">Jak wybrać framework frontendowy do nowego projektu?</div>
             <div class="thread-meta">
                 <span class="thread-author">AnnaNowak</span>
                 <span class="thread-date">14 maja 2023, 09:15</span>
             </div>
             <div class="thread-excerpt">
-                Chciałabym podzielić się moimi doświadczeniami z testowania jednostkowego i jednocześnie zapytać o Wasze najlepsze praktyki. Jak organizujecie swoje testy?
+                Planuję nowy projekt i zastanawiam się, który framework frontendowy będzie najlepszy. Co sądzicie o wyborze między Reactem, Vue a Svelte?
             </div>
             <div class="thread-stats">
-                <span><i>💬</i> 24 odpowiedzi</span>
-                <span><i>👁️</i> 378 wyświetleń</span>
-                <span><i>👍</i> 15 polubień</span>
+                <span><i>💬</i> 26 odpowiedzi</span>
+                <span><i>👁️</i> 400 wyświetleń</span>
+                <span><i>👍</i> 17 polubień</span>
             </div>
         </li>
-        
     </ul>
+
     </main>
     <div>
         <footer>
@@ -239,7 +224,7 @@
                 <img class="img" src="/Xampp-Project/img/Github.png" alt="git">
             </a>   
             </nav> 
-        <p>Created by Dominik C.</p>       
+        <p class="p">Created by Dominik C.</p>       
         </footer>
     </div>
 </body>
