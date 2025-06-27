@@ -1,6 +1,6 @@
 DOKUMENTACJA PROJEKTU
 
-Wykonał Dominik Chotomski
+Wykonał Dominik C.
 
 
 Strona posiada w pełni funkcjonaly system logowania oraz rejestracji użytkownika. Dane są walidowane a hasła hashowane.
